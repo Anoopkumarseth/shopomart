@@ -1,17 +1,25 @@
 <header class="site_header">
     <div class="ctr">
-        <a href="#" class="site_logo">ECom</a>
+        <a routerLink="/" class="site_logo">ECom</a>
     <nav>
-        <form class="search_box">
+        <form *ngIf="menuType === 'default'" class="search_box">
             <input type="text" placeholder="Search for products">
             <button>Submit</button>
         </form>
-        <ul class="navigation">
-            <li><a routerLink="/">Home</a></li>
-            <li><a routerLink="/seller-auth">Seller</a></li>
-            <li><a href="#">login</a></li>
-            <li><a href="#">Cart</a></li>
-        </ul>
+        <div [ngSwitch]="menuType" class="nav_wrap">
+            <ul *ngSwitchCase="'default'" class="navigation">
+                <li><a routerLink="/">Home</a></li>
+                <li><a routerLink="/seller-auth">Seller</a></li>
+                <li><a href="#">login</a></li>
+                <li><a href="#">Cart</a></li>
+            </ul>
+            <ul *ngSwitchCase="'seller'" class="navigation">
+                <li><a routerLink="/">Product List</a></li>
+                <li><a routerLink="/seller-auth">Add Product</a></li>
+                <li><a href="#">Logout</a></li>
+                <li><a href="#">Seller Name</a></li>
+            </ul>
+        </div>
     </nav>
     </div>
 </header>
