@@ -1,0 +1,32 @@
+input,
+select,
+optgroup,
+textarea{
+    border-radius: var(--border-radius);
+    padding: 8px 15px;
+    display: block;
+    width: 100%;
+    outline-offset: 5px;
+    outline-color: var(--primary-color);
+}
+
+label{
+    color: var(--label-color);
+}
+
+textarea{
+    resize: vertical;
+}
+
+.form-field{
+    border: 1px solid #ccc;
+    &:not(:last-child){
+        margin-bottom: 15px;
+    }
+}
+
+.text-error{
+    color: red;
+}
+
+

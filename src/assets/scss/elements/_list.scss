@@ -1,0 +1,25 @@
+.checklist{
+    list-style: none;
+    li{
+        list-style: none;
+        position: relative;
+        color: var(--dark-color);
+        display: flex;
+        &:not(:last-child){
+            margin-bottom: 20px;
+        }
+        &::before{
+            content: '';
+            height: 35px;
+            width: 35px;
+            // background-image: url(../images/icons/check-mark.svg);
+            display: inline-block;
+            position: relative;
+            background-repeat: no-repeat;
+            background-position: center;
+            top: -3px;
+            margin-right: 20px;
+            flex: 0 0 auto;
+        }
+    }
+}

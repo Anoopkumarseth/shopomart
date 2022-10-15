@@ -1,0 +1,21 @@
+.btn, button{
+    background: var(--primary-color);
+    color: var(--light-color) !important;
+    padding: var(--btn-padding);
+    border-radius: var(--border-radius);
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    &-block{
+        width: 100%;
+    }
+    &:hover{
+        box-shadow: var(--box-shadow);
+        transform: translateY(-2px);
+    }
+}
+

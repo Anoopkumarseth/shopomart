@@ -1,0 +1,40 @@
+{
+  "seller": [
+    {
+      "name": "",
+      "email": "anoopkumarseth@hotmail.com",
+      "password": "EdefMHgzgrUiJT5",
+      "id": 1
+    },
+    {
+      "name": "Treat",
+      "email": "shivam@hotmail.com",
+      "password": "ZsrzuZcR26yhX9M",
+      "id": 2
+    },
+    {
+      "name": "Chews",
+      "email": "mukul@hotmail.com",
+      "password": "ZsrzuZcR26yhX9M",
+      "id": 3
+    },
+    {
+      "name": "Treat",
+      "email": "anoopkumarseth@hotmail.com",
+      "password": "EdefMHgzgrUiJT5",
+      "id": 4
+    },
+    {
+      "name": "",
+      "email": "anoopkumarseth@hotmail.com",
+      "password": "EdefMHgzgrUiJT5",
+      "id": 5
+    },
+    {
+      "name": "Treat",
+      "email": "hbjhbj@hotmail.com",
+      "password": "EdefMHgzgrUiJT5",
+      "id": 6
+    }
+  ]
+}
