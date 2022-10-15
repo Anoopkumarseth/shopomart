@@ -1,46 +1,76 @@
 {
   "seller": [
     {
-      "name": "",
+      "name": "Anoop",
       "email": "anoopkumarseth@hotmail.com",
       "password": "EdefMHgzgrUiJT5",
       "id": 1
     },
     {
       "name": "Treat",
-      "email": "shivam@hotmail.com",
-      "password": "ZsrzuZcR26yhX9M",
+      "email": "treat@hotmail.com",
+      "password": "EdefMHgzgrUiJT5",
       "id": 2
     },
     {
-      "name": "Chews",
-      "email": "mukul@hotmail.com",
-      "password": "ZsrzuZcR26yhX9M",
+      "name": "fghg",
+      "email": "fff@hotmail.com",
+      "password": "EdefMHgzgrUiJT5",
       "id": 3
     },
     {
-      "name": "Treat",
-      "email": "anoopkumarseth@hotmail.com",
+      "name": "fff",
+      "email": "treat@hotmail.com",
       "password": "EdefMHgzgrUiJT5",
       "id": 4
     },
     {
-      "name": "",
-      "email": "anoopkumarseth@hotmail.com",
+      "name": "Treat",
+      "email": "treat@hotmail.com",
       "password": "EdefMHgzgrUiJT5",
       "id": 5
     },
     {
       "name": "Treat",
-      "email": "hbjhbj@hotmail.com",
+      "email": "treat@hotmail.com",
       "password": "EdefMHgzgrUiJT5",
       "id": 6
     },
     {
       "name": "Treat",
-      "email": "anoopkumarseth@hotmail.com",
+      "email": "treat@hotmail.com",
       "password": "EdefMHgzgrUiJT5",
       "id": 7
+    },
+    {
+      "name": "Chews",
+      "email": "treat@hotmail.com",
+      "password": "EdefMHgzgrUiJT5",
+      "id": 8
+    },
+    {
+      "name": "fghg",
+      "email": "treat@hotmail.com",
+      "password": "EdefMHgzgrUiJT5",
+      "id": 9
+    },
+    {
+      "name": "",
+      "email": "treat@hotmail.com",
+      "password": "EdefMHgzgrUiJT5",
+      "id": 10
+    },
+    {
+      "name": "fghg",
+      "email": "treat@hotmail.com",
+      "password": "EdefMHgzgrUiJT5",
+      "id": 11
+    },
+    {
+      "name": "fghg",
+      "email": "treat@hotmail.com",
+      "password": "EdefMHgzgrUiJT5",
+      "id": 12
     }
   ]
 }

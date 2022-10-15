@@ -12,7 +12,8 @@
         display: flex;
         margin-left: auto;
     }
-    .site_logo{
+
+    .site_logo {
         color: var(--primary-color);
         font-size: var(--h3-size);
         font-weight: var(--font-weight--bold);
@@ -21,10 +22,12 @@
     .search_box {
         display: flex;
         border: 1px solid #ccc;
+        padding: 2px 2.5px 2.5px;
+
         input {
             border: 0;
         }
-padding: 2px 2.5px 2.5px;
+
     }
 
     .navigation {
@@ -32,7 +35,8 @@ padding: 2px 2.5px 2.5px;
         list-style: none;
 
         a {
-            padding: 7px 15px
+            padding: 7px 15px;
+            cursor: pointer;
         }
     }
 }
