@@ -1,0 +1,24 @@
+<div class="ctr">
+    <div class="seller_auth">
+        <div *ngIf="seller_log" class="sign_up">
+            <h3>Seller Sign-up</h3>
+            <form #sellerSignup="ngForm" (ngSubmit)="signUp(sellerSignup.value)"  action="">
+                <input class="form-field" ngModel type="text" name="name" placeholder="Enter Your Name">
+                <input class="form-field" ngModel type="text" name="email" placeholder="Enter Your Email">
+                <input class="form-field" ngModel type="password" name="password" placeholder="Enter Your Password">
+                <button class="btn" type="submit">Submit</button>
+                <a class="log_method" (click)="sellerToggleForm()">Aleady Have Account Login</a>
+            </form>
+        </div>
+        <div *ngIf="!seller_log" class="log_in">
+            <h3>login</h3>
+            <p *ngIf="authError" class="text-error">Invaild User and Password</p>
+            <form #login="ngForm" (ngSubmit)="logIn(login.value)"  action="">
+                <input class="form-field" ngModel type="text" name="email" placeholder="Enter Your Email">
+                <input class="form-field" ngModel type="password" name="password" placeholder="Enter Your Password">
+                <button class="btn" type="submit">Submit</button>
+                <a class="log_method" (click)="sellerToggleForm()">Don't Have Account Signup</a>
+            </form>
+        </div>
+    </div>
+</div>

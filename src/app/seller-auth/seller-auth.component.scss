@@ -1,0 +1,16 @@
+.seller_auth{
+    padding: 50px 0;
+    max-width: 600px;
+    margin-inline: auto;
+}
+
+.log_method{
+    cursor: pointer;
+    transition: color 200ms ease-in-out;
+    margin-top: 15px;
+    text-align: center;
+    display: block;
+    &:hover{
+        color: var(--primary-color);        
+    }
+}
