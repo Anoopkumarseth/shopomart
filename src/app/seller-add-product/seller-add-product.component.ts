@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { product } from '../data-type';
 import { ProductService } from '../services/product.service';
 
 @Component({
@@ -7,13 +8,15 @@ import { ProductService } from '../services/product.service';
   styleUrls: ['./seller-add-product.component.scss']
 })
 export class SellerAddProductComponent implements OnInit {
-
+  productMsg: string | undefined;
   constructor(private product: ProductService) { }
 
   ngOnInit(): void {
   }
-  addProducts(data: object) {
-    console.log(data)
-    this.product.addProduct()
+  addProducts(data: product) {
+    this.product.addProduct(data).subscribe((result) => {
+      result ? this.productMsg = "product Added" : this.productMsg = "Product Not Added";
+      setTimeout(() => this.productMsg = undefined, 3000);
+    })
   }
 }
