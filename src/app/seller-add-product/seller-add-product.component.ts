@@ -15,7 +15,7 @@ export class SellerAddProductComponent implements OnInit {
   }
   addProducts(data: product) {
     this.product.addProduct(data).subscribe((result) => {
-      result ? this.productMsg = "product Added" : this.productMsg = "Product Not Added";
+      result ? this.productMsg = "Product Added" : this.productMsg = "Product Not Added";
       setTimeout(() => this.productMsg = undefined, 3000);
     })
   }
