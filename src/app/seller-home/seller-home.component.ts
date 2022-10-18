@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { product } from '../data-type';
 import { ProductService } from '../services/product.service';
+import { faTrash } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-seller-home',
@@ -9,19 +10,20 @@ import { ProductService } from '../services/product.service';
 })
 export class SellerHomeComponent implements OnInit {
   productList: undefined | product[];
+  faTrash = faTrash;
   constructor(private productListing: ProductService) { }
 
   ngOnInit(): void {
     this.showproducts();
   }
-  showproducts(){
+  showproducts() {
     this.productListing.listProduct().subscribe((result) => {
       this.productList = result;
     })
   }
-  deleteProduct(id:number){
+  deleteProduct(id: number) {
     console.log(id);
-    this.productListing.deleteProduct(id).subscribe((result)=>{
+    this.productListing.deleteProduct(id).subscribe((result) => {
       console.log("product Deleted")
       this.showproducts();
     })
