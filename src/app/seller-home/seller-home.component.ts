@@ -13,9 +13,12 @@ export class SellerHomeComponent implements OnInit {
 
   ngOnInit(): void {
     this.productListing.listProduct().subscribe((result) => {
-      console.log(result);
       this.productList = result;
     })
   }
 
+  deleteProduct(id:number){
+    console.log(id);
+    
+  }
 }

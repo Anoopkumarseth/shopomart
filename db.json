@@ -37,6 +37,33 @@
       "image": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a536elbhins/gallery/in-galaxy-a53-5g-a536-416923-416923-sm-a536elbhins-533689163?$650_519_PNG$",
       "description": "dgfdgdfg dfhhgfh",
       "id": 2
+    },
+    {
+      "name": "HP pavilion ",
+      "price": "70000",
+      "category": "PC",
+      "color": "Black",
+      "image": "https://in-media.apjonlinecdn.com/catalog/product/5/8/589X6PA-1_T1656562474.png",
+      "description": "HP Store India · ₹62,055.00\nHp Pavilion",
+      "id": 3
+    },
+    {
+      "name": "wefg",
+      "price": "542",
+      "category": "45454",
+      "color": "45454",
+      "image": "https://www.notebookcheck.net/uploads/tx_nbc2/HPPavilion13-b__1__01.jpg",
+      "description": "545454",
+      "id": 4
+    },
+    {
+      "name": "kmbongf",
+      "price": "542",
+      "category": "45454",
+      "color": "45454",
+      "image": "https://www.reliancedigital.in/medias/HP-Pavilion-15-eg2002TU-Laptop-492849709-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxMDIwMDIxfGltYWdlL2pwZWd8aW1hZ2VzL2gzYi9oMzcvOTgwMDk3OTMxNjc2Ni5qcGd8ZWQ4MTcxYTc3YTU2OGRhM2VmZjUwMTI0NzQ3MzQyYTIzZGE1MDQxMTVhNmY0M2U4NTAxZjQ4OWQyZGM2MjBmNg",
+      "description": "545454",
+      "id": 5
     }
   ]
 }

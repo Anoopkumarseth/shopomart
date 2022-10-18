@@ -4,21 +4,24 @@
         <table>
             <thead>
                 <tr>
+                    <th>Image</th>
                     <th>Name</th>
                     <th>Price</th>
-                    <th>Color</th>
                     <th>Category</th>
+                    <th>Color</th>
                     <th>Description</th>
+                    <th>Actions</th>
                 </tr>
             </thead>
             <tbody>
                 <tr *ngFor="let item of productList">
+                    <td><img class="product_image" src="{{item.image}}" alt="{{item.name}} (Photo)"></td>
                     <td>{{item.name}}</td>
                     <td>{{item.price}}</td>
                     <td>{{item.category}}</td>
                     <td>{{item.color}}</td>
-                    <td>{{item.image}}</td>
                     <td>{{item.description}}</td>
+                    <td><button (click)="deleteProduct(item.id)">Delete</button></td>
                     <!-- <td>{{item.url}}</td> -->
                 </tr>
             </tbody>
