@@ -5,9 +5,9 @@
             <form #addProduct="ngForm" (ngSubmit)="addProducts(addProduct.value)"  action="">
                 <input class="form-field" ngModel type="text" name="name" placeholder="Product Name">
                 <input class="form-field" ngModel type="text" name="price" placeholder="Product Price">
+                <input class="form-field" ngModel type="text" name="category" placeholder="Product categories">
                 <input class="form-field" ngModel type="text" name="color" placeholder="Product Color">
-                <input class="form-field" ngModel type="text" name="categories" placeholder="Product categories">
-                <input class="form-field" ngModel type="text" name="url" placeholder="Product Url">
+                <input class="form-field" ngModel type="text" name="image" placeholder="Product Url">
                 <textarea class="form-field" ngModel name="description" placeholder="description" id="" cols="30" rows="10"></textarea>
                 <button class="btn" type="submit">Submit</button>
             </form>

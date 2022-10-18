@@ -21,6 +21,18 @@ img {
     max-width: 100%;
 }
 
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
 .screen-reader-text {
     border: 0;
     clip: rect(1px, 1px, 1px, 1px);
@@ -38,6 +50,6 @@ img {
     overflow: hidden;
 }
 
-.page-section{
+.page-section {
     padding-block: var(--page-section-padding);
 }

@@ -1,1 +1,27 @@
-<p>seller-home works!</p>
+<section class="page-section">
+    <div class="ctr">
+        <h2>All Product List</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Color</th>
+                    <th>Category</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of productList">
+                    <td>{{item.name}}</td>
+                    <td>{{item.price}}</td>
+                    <td>{{item.category}}</td>
+                    <td>{{item.color}}</td>
+                    <td>{{item.image}}</td>
+                    <td>{{item.description}}</td>
+                    <!-- <td>{{item.url}}</td> -->
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
