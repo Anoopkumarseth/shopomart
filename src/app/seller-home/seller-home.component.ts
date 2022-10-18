@@ -12,13 +12,18 @@ export class SellerHomeComponent implements OnInit {
   constructor(private productListing: ProductService) { }
 
   ngOnInit(): void {
+    this.showproducts();
+  }
+  showproducts(){
     this.productListing.listProduct().subscribe((result) => {
       this.productList = result;
     })
   }
-
   deleteProduct(id:number){
     console.log(id);
-    
+    this.productListing.deleteProduct(id).subscribe((result)=>{
+      console.log("product Deleted")
+      this.showproducts();
+    })
   }
 }
