@@ -22,4 +22,8 @@ export class ProductService {
   getSingleProduct(id:string){
     return this.http.get<product>('http://localhost:3000/products/' + id)
   }
+
+  updateSingleProduct(product:product){
+    return this.http.put<product>(`http://localhost:3000/products/${product.id}`, product)
+  }
 }

@@ -36,19 +36,19 @@
       "id": 1
     },
     {
-      "name": "Oppo Phone",
-      "price": "20140",
+      "name": "Oppo Phone pro max",
+      "price": "500001",
       "category": "phone",
       "color": "black",
       "image": "https://m.media-amazon.com/images/I/71geVdy6-OS._SL1500_.jpg",
-      "description": "Phone 2",
+      "description": "Phone 758",
       "id": 2
     },
     {
       "name": "Techno Phone",
       "price": "10140",
       "category": "phone",
-      "color": "black",
+      "color": "blue",
       "image": "https://www.tecno-mobile.in/storage/images/20220829/75fac631cc461e751dcbfc4e2a570bed.jpg",
       "description": "Phone 3",
       "id": 3
