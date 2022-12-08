@@ -17,44 +17,41 @@
       "email": "anoopseth2@hotmail.com",
       "password": "EdefMHgzgrUiJT52",
       "id": 3
+    },
+    {
+      "name": "Anoop Seth",
+      "email": "anoopkumarseth@hotmail.com",
+      "password": "123",
+      "id": 4
     }
   ],
   "products": [
     {
-      "name": "iPhone",
-      "price": "1000",
-      "category": "phone",
+      "name": "Anoop Seth",
+      "price": "123",
+      "category": "lapy",
       "color": "black",
-      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1662703105/Croma%20Assets/Communication/Mobiles/Images/261963_oqrd6j.png/mxw_640,f_auto",
-      "description": "dgfdgdfg",
+      "image": "https://i.gadgets360cdn.com/products/large/moto-g52-db-709x800-1649827920.jpg",
+      "description": "Phone 1",
       "id": 1
     },
     {
-      "name": "samsung ",
-      "price": "100055",
+      "name": "Oppo Phone",
+      "price": "20140",
       "category": "phone",
       "color": "black",
-      "image": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a536elbhins/gallery/in-galaxy-a53-5g-a536-416923-416923-sm-a536elbhins-533689163?$650_519_PNG$",
-      "description": "dgfdgdfg dfhhgfh",
+      "image": "https://m.media-amazon.com/images/I/71geVdy6-OS._SL1500_.jpg",
+      "description": "Phone 2",
       "id": 2
     },
     {
-      "name": "fghg,jfv",
-      "price": "kjhkjb",
+      "name": "Techno Phone",
+      "price": "10140",
       "category": "phone",
-      "color": "Blackn,v",
-      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1662703105/Croma%20Assets/Communication/Mobiles/Images/261963_oqrd6j.png/mxw_640,f_auto",
-      "description": "hgc",
-      "id": 7
-    },
-    {
-      "name": "fghg,jfv",
-      "price": "kjhkjb",
-      "category": "phone",
-      "color": "Blackn,v",
-      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1662703105/Croma%20Assets/Communication/Mobiles/Images/261963_oqrd6j.png/mxw_640,f_auto",
-      "description": "hgc",
-      "id": 8
+      "color": "black",
+      "image": "https://www.tecno-mobile.in/storage/images/20220829/75fac631cc461e751dcbfc4e2a570bed.jpg",
+      "description": "Phone 3",
+      "id": 3
     }
   ]
 }

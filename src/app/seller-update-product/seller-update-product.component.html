@@ -1,0 +1,17 @@
+<div class="ctr">
+    <div class="common_from">
+        <div class="update_product">
+            <h3>Update Product</h3>
+            <form #addProduct="ngForm" (ngSubmit)="updateProducts(addProduct.value)"  action="">
+                <input class="form-field" ngModel="{{productData?.name}}" type="text" name="name" placeholder="Product Name">
+                <input class="form-field" ngModel="{{productData?.price}}" type="text" name="price" placeholder="Product Price">
+                <input class="form-field" ngModel="{{productData?.category}}" type="text" name="category" placeholder="Product categories">
+                <input class="form-field" ngModel="{{productData?.color}}" type="text" name="color" placeholder="Product Color">
+                <input class="form-field" ngModel="{{productData?.image}}" type="text" name="image" placeholder="Product Url">
+                <textarea class="form-field" ngModel="{{productData?.description}}" name="description" placeholder="description" id="" cols="30" rows="10"></textarea>
+                <button class="btn" type="submit">Submit</button>
+            </form>
+            <p class="text-success">{{productMsg}}</p>
+        </div>
+    </div>
+</div>
