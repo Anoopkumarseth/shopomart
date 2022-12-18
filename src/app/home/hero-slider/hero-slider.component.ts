@@ -21,8 +21,9 @@ export class HeroSliderComponent implements OnInit {
     slidesPerView: 1,
     spaceBetween: 50,
     navigation: true,
+    allowTouchMove:false,
+    followFinger:false,
     pagination: this.pagination,
-    centeredSlides:true,
     effect:'creative',
     creativeEffect:{
       prev: {
