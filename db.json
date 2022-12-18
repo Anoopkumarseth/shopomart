@@ -52,6 +52,42 @@
       "image": "https://www.tecno-mobile.in/storage/images/20220829/75fac631cc461e751dcbfc4e2a570bed.jpg",
       "description": "Phone 3",
       "id": 3
+    },
+    {
+      "name": "HP pavillion ",
+      "price": "70000",
+      "category": "Laptop",
+      "color": "black",
+      "image": "https://m.media-amazon.com/images/I/81B54EwuLUL._AC_SY135_.jpg",
+      "description": "Sacrifice nothing with the thin and powerful HP Pavilion Gaming 15 Laptop. Experience high-grade graphics and processing power for gaming and multitasking, plus improved thermal cooling for overall performance and stability. Immerse yourself in the game with a micro-edge bezel display and custom-tuned audio. The perfect balance between work and play, so you can do it all.\n\nTake on everything with a high performance AMD processor and advanced graphics. A FHD resolution display with fast refresh rate delivers smooth gameplay visuals, while also bringing entertainment and content to life.\n\nGame harder for longer on a laptop equipped with a dual fan system for enhanced thermal cooling. A wide rear vent and enlarged air inlets maximize airflow to optimize your overall performance and stability, keeping the machine cool during extended usage. Up your game with customizable performance options with OMEN Gaming Hub.\n\nA sleek micro-edge bezel display provides a maximum viewing experience while the front-firing speakers with Audio by B&O deliver powerful, custom-tuned sound.",
+      "id": 4
+    },
+    {
+      "name": "Amazon Basics Laptop Sleeve Case Cover Pouch for 13-Inch, 13.3-Inch Laptop for Men & Women | Slim Profile Neoprene, Soft Puffy Fabric Lining, 360° Protection, Smooth & Premium Zipper (Blue)",
+      "price": "7000",
+      "category": "Laptop Bag",
+      "color": "Blue",
+      "image": "https://m.media-amazon.com/images/I/81UXyBtxsfL._SX679_.jpg",
+      "description": "Sacrifice nothing with the thin and powerful HP Pavilion Gaming 15 Laptop. Experience high-grade graphics and processing power for gaming and multitasking, plus improved thermal cooling for overall performance and stability. Immerse yourself in the game with a micro-edge bezel display and custom-tuned audio. The perfect balance between work and play, so you can do it all.\n\nTake on everything with a high performance AMD processor and advanced graphics. A FHD resolution display with fast refresh rate delivers smooth gameplay visuals, while also bringing entertainment and content to life.\n\nGame harder for longer on a laptop equipped with a dual fan system for enhanced thermal cooling. A wide rear vent and enlarged air inlets maximize airflow to optimize your overall performance and stability, keeping the machine cool during extended usage. Up your game with customizable performance options with OMEN Gaming Hub.\n\nA sleek micro-edge bezel display provides a maximum viewing experience while the front-firing speakers with Audio by B&O deliver powerful, custom-tuned sound.",
+      "id": 5
+    },
+    {
+      "name": "boAt BassHeads 100 in-Ear Wired Headphones with Mic",
+      "price": "300",
+      "category": "headphone",
+      "color": "Black",
+      "image": "https://m.media-amazon.com/images/I/31IdiM9ZM8L._SX300_SY300_QL70_FMwebp_.jpg",
+      "description": "The perfect way to add some style and stand out from the crowd with the boAt BassHeads 100 \"Hawk\" inspired earphones. Impedance 16Ω, Sensitivity (dB) 92db ±3db, Frequency Response 20Hz-20KHz\nThe stylish BassHeads 100 superior coated wired earphones are a definite fashion statement - wear your attitude with its wide variety of collection\nThe powerful 10mm dynamic driver with the speaker resistance of 16 ohm enables the earphone to deliver a punchy, rhythmic response to the most demanding tracks\nFeatures a HD microphone to make crystal clear calls - making life easier on the go, play/pause music or answer/end calls with one-click, track forward with two-clicks or back with 3 clicks make these earphones extremely user-friendly\nWith 1.2 meters perfect length cable now plug it in anywhere with ease - while the earphones are extremely user-friendly and stylish, extruding premium coating on the wire cable is a manufacturing process that we've been performing and refining since our company's inception\nIts impeccable fit won't let you take these wonderfully amazing earphones off, fits you perfectly without hurting your ears and the perfect arc, with different size ear tips helps you in achieving superior comfort even with long listening hours.\n1 year warranty from the date of purchase",
+      "id": 6
+    },
+    {
+      "name": "JBL C50HI, Wired in Ear Headphones with Mic, One Button Multi-Function Remote, Lightweight & Comfortable fit",
+      "price": "700",
+      "category": "headphone",
+      "color": "Black",
+      "image": "https://m.media-amazon.com/images/I/61bKM6CSSFL._SX522_.jpg",
+      "description": "JBL Signature Sound\nLightweight and comfortable: The 3 sizes of ear tips (S,M,L) that are included allow you to choose a size that gives you the most comfortable listening experience even for longer listening periods.\nHigh Clean Bass. Troubleshooting steps : Kindly ensure 3.5mm port on Host device is clean and dust free and 3.5mm jack of the earphone is adequately inserted inside the input device port\nNoise Isolation Microphone, Dynamic frequency response range (Hz) 20 Hz – 20 kHz. One-Button Universal Remote with Mic\nQuick Launch Access to Google Assistant / Siri\nUltra Lightweight and Comfortable with 3 sizes of ear tips\nHigh Fidelity Twin Cable\nWhat's in the box : 1 pair JBL C50HI headphone, 3 sets of ear tips (S, M, L), 1 Warranty and safety card",
+      "id": 7
     }
   ]
 }
