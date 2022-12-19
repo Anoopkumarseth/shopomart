@@ -30,4 +30,13 @@ export class ProductService {
   popProd(){
     return this.http.get<product[]>('http://localhost:3000/products?_limit=5')
   }
+
+  trendingProd(){
+    return this.http.get<product[]>('http://localhost:3000/products?_limit=8')
+  }
+
+  searchProduct(query:string){
+    return this.http.get<product[]>(`http://localhost:3000/products?q=${query}`)
+  }
+
 }

@@ -6,126 +6,23 @@
     <div class="ctr">
         <h2 class="section_title">Tranding Products</h2>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
-            <div class="col">
+            
+            <div class="col" *ngFor="let item of tradingproduct">
                 <figure class="product_card">
-                    <img src="https://i.gadgets360cdn.com/products/large/moto-g52-db-709x800-1649827920.jpg" alt="">
+                    <img [src]="item.image" alt="">
                     <figcaption class="product_body">
-                        <h3 class="product-name">Oppo Phone pro max</h3>
-                        <h6 class="product_price">Price: 10000</h6>
-                        <h6 class="product_color">Color: Black</h6>
-                        <h6 class="product_color">Color: Black</h6>
+                        <h3 class="product-name">{{item.name}}</h3>
+                        <h6 class="product_price">Price: {{item.price}}</h6>
+                        <h6 class="product_color">Color: {{item.color}}</h6>
+                        <h6 class="product_color">Color: {{item.category}}</h6>
                     </figcaption>
                     <div class="product_footer">
-                        <a href="#">View Detials</a>
-                        <a href="#">Add To Cart</a>
+                        <a href="#"><fa-icon class="icon" [icon]="faEye"></fa-icon>View Detials</a>
+                        <a href="#"><fa-icon class="icon" [icon]="faCartShopping"></fa-icon>Add To Cart</a>
                     </div>
                 </figure>
             </div>
-            <div class="col">
-                <figure class="product_card">
-                    <img src="https://i.gadgets360cdn.com/products/large/moto-g52-db-709x800-1649827920.jpg" alt="">
-                    <figcaption class="product_body">
-                        <h3 class="product-name">Oppo Phone pro max</h3>
-                        <h6 class="product_price">Price: 10000</h6>
-                        <h6 class="product_color">Color: Black</h6>
-                        <h6 class="product_color">Color: Black</h6>
-                    </figcaption>
-                    <div class="product_footer">
-                        <a href="#">View Detials</a>
-                        <a href="#">Add To Cart</a>
-                    </div>
-                </figure>
-            </div>
-            <div class="col">
-                <figure class="product_card">
-                    <img src="https://i.gadgets360cdn.com/products/large/moto-g52-db-709x800-1649827920.jpg" alt="">
-                    <figcaption class="product_body">
-                        <h3 class="product-name">Oppo Phone pro max</h3>
-                        <h6 class="product_price">Price: 10000</h6>
-                        <h6 class="product_color">Color: Black</h6>
-                        <h6 class="product_color">Color: Black</h6>
-                    </figcaption>
-                    <div class="product_footer">
-                        <a href="#">View Detials</a>
-                        <a href="#">Add To Cart</a>
-                    </div>
-                </figure>
-            </div>
-            <div class="col">
-                <figure class="product_card">
-                    <img src="https://i.gadgets360cdn.com/products/large/moto-g52-db-709x800-1649827920.jpg" alt="">
-                    <figcaption class="product_body">
-                        <h3 class="product-name">Oppo Phone pro max</h3>
-                        <h6 class="product_price">Price: 10000</h6>
-                        <h6 class="product_color">Color: Black</h6>
-                        <h6 class="product_color">Color: Black</h6>
-                    </figcaption>
-                    <div class="product_footer">
-                        <a href="#">View Detials</a>
-                        <a href="#">Add To Cart</a>
-                    </div>
-                </figure>
-            </div>
-            <div class="col">
-                <figure class="product_card">
-                    <img src="https://i.gadgets360cdn.com/products/large/moto-g52-db-709x800-1649827920.jpg" alt="">
-                    <figcaption class="product_body">
-                        <h3 class="product-name">Oppo Phone pro max</h3>
-                        <h6 class="product_price">Price: 10000</h6>
-                        <h6 class="product_color">Color: Black</h6>
-                        <h6 class="product_color">Color: Black</h6>
-                    </figcaption>
-                    <div class="product_footer">
-                        <a href="#">View Detials</a>
-                        <a href="#">Add To Cart</a>
-                    </div>
-                </figure>
-            </div>
-            <div class="col">
-                <figure class="product_card">
-                    <img src="https://i.gadgets360cdn.com/products/large/moto-g52-db-709x800-1649827920.jpg" alt="">
-                    <figcaption class="product_body">
-                        <h3 class="product-name">Oppo Phone pro max</h3>
-                        <h6 class="product_price">Price: 10000</h6>
-                        <h6 class="product_color">Color: Black</h6>
-                        <h6 class="product_color">Color: Black</h6>
-                    </figcaption>
-                    <div class="product_footer">
-                        <a href="#">View Detials</a>
-                        <a href="#">Add To Cart</a>
-                    </div>
-                </figure>
-            </div>
-            <div class="col">
-                <figure class="product_card">
-                    <img src="https://i.gadgets360cdn.com/products/large/moto-g52-db-709x800-1649827920.jpg" alt="">
-                    <figcaption class="product_body">
-                        <h3 class="product-name">Oppo Phone pro max</h3>
-                        <h6 class="product_price">Price: 10000</h6>
-                        <h6 class="product_color">Color: Black</h6>
-                        <h6 class="product_color">Color: Black</h6>
-                    </figcaption>
-                    <div class="product_footer">
-                        <a href="#">View Detials</a>
-                        <a href="#">Add To Cart</a>
-                    </div>
-                </figure>
-            </div>
-            <div class="col">
-                <figure class="product_card">
-                    <img src="https://i.gadgets360cdn.com/products/large/moto-g52-db-709x800-1649827920.jpg" alt="">
-                    <figcaption class="product_body">
-                        <h3 class="product-name">Oppo Phone pro max</h3>
-                        <h6 class="product_price">Price: 10000</h6>
-                        <h6 class="product_color">Color: Black</h6>
-                        <h6 class="product_color">Color: Black</h6>
-                    </figcaption>
-                    <div class="product_footer">
-                        <a href="#">View Detials</a>
-                        <a href="#">Add To Cart</a>
-                    </div>
-                </figure>
-            </div>
+            
             
         </div>
     </div>

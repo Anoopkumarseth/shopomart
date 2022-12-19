@@ -3,7 +3,7 @@
         <a routerLink="/" class="site_logo">ECom</a>
     <nav>
         <form *ngIf="menuType === 'default'" class="search_box">
-            <input type="text" placeholder="Search for products">
+            <input type="text" (keyup)="searchProduct($event)" placeholder="Search for products">
             <button>Submit</button>
         </form>
         <div [ngSwitch]="menuType" class="nav_wrap">
