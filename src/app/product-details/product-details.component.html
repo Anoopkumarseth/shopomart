@@ -1,0 +1,19 @@
+<div class="ctr">
+    <div class="product_item" *ngIf="detailedProduct">
+        <figure class="produt_card">
+            <div class="img_outer">
+                <img [src]="detailedProduct.image" alt="Prodcut Image">
+            </div>
+            <figcaption>
+                <h3 class="product_name">
+                   {{detailedProduct.name}}
+                </h3>
+                <p><b>Price: {{detailedProduct.price}} </b></p>
+                <p>Color: {{detailedProduct.color}}</p>
+                <p>Category: {{detailedProduct.category}}</p>
+                <p>{{detailedProduct.description}}</p>
+    
+            </figcaption>
+        </figure>
+    </div>
+</div>

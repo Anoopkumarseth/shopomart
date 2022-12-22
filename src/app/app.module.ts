@@ -15,6 +15,7 @@ import { SellerUpdateProductComponent } from './seller-update-product/seller-upd
 import { SwiperModule } from 'swiper/angular';
 import { HeroSliderComponent } from './home/hero-slider/hero-slider.component';
 import { SearchComponent } from './search/search.component';
+import { ProductDetailsComponent } from './product-details/product-details.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { SearchComponent } from './search/search.component';
     SellerUpdateProductComponent,
     HeroSliderComponent,
     SearchComponent,
+    ProductDetailsComponent,
   ],
   imports: [
     BrowserModule,

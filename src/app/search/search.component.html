@@ -3,12 +3,12 @@
         <div class="col" *ngFor="let item of searchResult">
             <div class="product_item">
                 <figure class="produt_card">
-                    <div class="img_outer">
+                    <a routerLink="/details/{{item.id}}" class="img_outer">
                         <img [src]="item.image" alt="Prodcut Image">
-                    </div>
+                    </a>
                     <figcaption>
                         <h3 class="product_name">
-                            {{item.name}}
+                            <a routerLink="/details/{{item.id}}">{{item.name}}</a>
                         </h3>
                         <p><b>Price: {{item.price}} </b></p>
                         <p>Color: {{item.color}}</p>
