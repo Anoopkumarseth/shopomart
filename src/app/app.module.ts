@@ -14,6 +14,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SellerUpdateProductComponent } from './seller-update-product/seller-update-product.component';
 import { SwiperModule } from 'swiper/angular';
 import { HeroSliderComponent } from './home/hero-slider/hero-slider.component';
+import { SearchComponent } from './search/search.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { HeroSliderComponent } from './home/hero-slider/hero-slider.component';
     SellerAddProductComponent,
     SellerUpdateProductComponent,
     HeroSliderComponent,
+    SearchComponent,
   ],
   imports: [
     BrowserModule,

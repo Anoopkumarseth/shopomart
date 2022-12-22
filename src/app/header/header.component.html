@@ -3,8 +3,13 @@
         <a routerLink="/" class="site_logo">ECom</a>
     <nav>
         <form *ngIf="menuType === 'default'" class="search_box">
-            <input type="text" (keyup)="searchProduct($event)" placeholder="Search for products">
-            <button>Submit</button>
+            <input type="text" #searchInput (keyup)="searchProduct($event)" (blur)="hideSearch()" placeholder="Search for products">
+            <button (click)="submitSearch(searchInput.value)">Submit</button>
+            <ul class="suggested_results" *ngIf="searchResult">
+                <li *ngFor="let item of searchResult">
+                    <a routerLink="search/query">{{item.name}}</a>
+                </li>
+            </ul>
         </form>
         <div [ngSwitch]="menuType" class="nav_wrap">
             <ul *ngSwitchCase="'default'" class="navigation">
