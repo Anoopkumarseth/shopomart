@@ -1,1 +1,27 @@
-<p>search works!</p>
+<div class="ctr">
+    <div class="row row-cols-1 row-cols-xl-2">
+        <div class="col" *ngFor="let item of searchResult">
+            <div class="product_item">
+                <figure class="produt_card">
+                    <div class="img_outer">
+                        <img [src]="item.image" alt="Prodcut Image">
+                    </div>
+                    <figcaption>
+                        <h3 class="product_name">
+                            {{item.name}}
+                        </h3>
+                        <p><b>Price: {{item.price}} </b></p>
+                        <p>Color: {{item.color}}</p>
+                        <p>Category: {{item.category}}</p>
+                        <p>{{item.description}}</p>
+        
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        
+    <h1 *ngIf="noSearchResult" class="noResultFound">No Result Found: {{searchedQuery}}</h1>    
+        
+    </div>
+   
+</div>
